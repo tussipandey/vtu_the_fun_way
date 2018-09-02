@@ -1,0 +1,169 @@
+
+#container {
+    width: 1000px;
+  /*  border: 1px solid grey; */
+   
+    margin: 0 auto;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color:brown;
+    text-decoration: none;
+}
+
+ h1{
+    font-family: fantasy;
+    color: blue;
+}
+ 
+
+#header{
+    height:100px;
+    padding: 10px 0;
+}
+
+#searchbox {
+    float: right;
+    background: linear-gradient(blue,white);
+    width:400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top:  20px;
+}
+.text{
+    float: left;
+    padding: 5px;
+    width: 200px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: chartreuse;
+    background: white url(download.png) right center no-repeat;
+    border: 1px solid blue;
+}
+.clear{
+    clear: both;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: violet;
+}
+#brand {
+    float :left;
+}
+.new{
+    text-align: right;
+}
+.new li{
+    display: inline;
+    margin-left: 2px;
+}
+ul{
+    list-style: none;
+}
+.menu ul li{
+    float:left;
+    padding: 0 30px;
+    height: 30px;
+    border-right:1px solid darkcyan;
+}
+.menu{
+    height: 50px;
+    background: linear-gradient(white,green);
+
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:darkcyan;
+    transition: font-size 0.5s ease;
+    
+}
+.menu ul li a:hover , .menu ul li a.active{
+    text-decoration: inherit;
+    font-size: 30px;
+    font-weight: bold;
+    color:red;
+    
+}
+#intro {
+    background: linear-gradient(white,green);
+    color: indigo;
+    padding: 30px;
+    margin: 16px 0;
+    height: auto;
+}
+#intro h1 {
+    background: linear-gradient(white,green);
+    color: indigo;
+ 
+
+}
+#intro p{
+    background: linear-gradient(white,green);
+    color: indigo;
+
+margin:  0px;
+    height: auto;
+}
+
+
+
+#intro h2 {
+    text-align:justify;
+}
+.sidebar{
+    height: 600px;
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#sidebarleft{
+    float:left;
+}
+#sidebarright{
+    float:right;
+}
+.sidebar h3{
+    color:aqua;
+    font-weight: bold;
+    
+}
+#sidebarleft ul li{
+    padding: 5px;
+    list-style-image: url(/arrow.jpg) ;
+}
+#sidebarright ul li{
+    padding: 5px;
+    list-style-image: url(/bullet.png) ;
+}
+.sidebar ul li a{
+    color:coral;
+    text-decoration: none;
+    font-size:15px;
+    transition: font-size 0.5s linear;
+}
+.sidebar ul li a:hover{
+    font-size: 25px;
+    font-weight: bold;
+    color: coral;
+}
+.footer{
+    height: 50px;
+    background: linear-gradient(white,yellow);
+    color:olive;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+img{
+    display: inline-block;
+    position: right;
+}
+    

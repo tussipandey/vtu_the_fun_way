@@ -1,0 +1,16 @@
+#h{
+ color: blue;
+ font-size: 100%;
+    text-align: center;
+    text-decoration-color: blueviolet;
+}
+#error{
+    color: brown;
+}
+body{
+    background: linear-gradient(white,blue);
+   background-repeat: no-repeat;
+}
+#submit{
+    margin-bottom: 50px;
+}
